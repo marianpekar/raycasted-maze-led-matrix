@@ -1,13 +1,13 @@
 #include <cmath>
 #include <ctime>
 #include <cstdlib>
-#include "Game.h"
-#include "Maze.h"
-#include "Node.h"
-#include "PathFinder.h"
-#include "Player.h"
-#include "Raycaster.h"
-#include "Surfaces.h"
+#include "game.h"
+#include "maze.h"
+#include "node.h"
+#include "path_finder.h"
+#include "player.h"
+#include "raycaster.h"
+#include "surfaces.h"
 
 Game::~Game()
 {

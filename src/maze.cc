@@ -1,8 +1,8 @@
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
-#include "Maze.h"
-#include "PerlinNoise.h"
+#include "maze.h"
+#include "perlin_noise.h"
 
 Maze::~Maze()
 {
