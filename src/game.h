@@ -2,8 +2,8 @@
 
 #include <memory>
 
-#include "Constants.h"
-#include "Ray.h"
+#include "constants.h"
+#include "ray.h"
 
 struct Node;
 
