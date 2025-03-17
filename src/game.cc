@@ -19,14 +19,13 @@ Game::~Game()
 
 void Game::Setup()
 {
-    srand(seed > 0 ? seed : time(0));
+    srand(time(0));
 
     Maze::GetRandomTile(m_startX, m_startY);
 
     m_maze = new Maze(m_startX, m_startY);
 
     m_player = new Player;
-    m_player->m_isBot = isBot;
     m_player->m_x = m_startY * TILE_SIZE + TILE_SIZE * 0.5;
     m_player->m_y = m_startX * TILE_SIZE + TILE_SIZE * 0.5;
     m_player->m_width = 1;
