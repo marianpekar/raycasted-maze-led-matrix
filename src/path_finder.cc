@@ -1,6 +1,6 @@
-#include "PathFinder.h"
-#include "Node.h"
-#include "Maze.h"
+#include "path_finder.h"
+#include "node.h"
+#include "maze.h"
 
 #include <vector>
 #include <algorithm>
