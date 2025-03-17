@@ -1,6 +1,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
+#include <cmath>
 #include "maze.h"
 #include "perlin_noise.h"
 
