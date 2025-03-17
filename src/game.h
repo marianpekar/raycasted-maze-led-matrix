@@ -11,7 +11,7 @@ class Game
 {
 public:
 	~Game();
-	void Setup(unsigned int seed, bool isBot);
+	void Setup();
 	void Update();
 	void Delay(float time);
 	

@@ -17,7 +17,7 @@ Game::~Game()
     delete m_maze;
 }
 
-void Game::Setup(unsigned int seed, bool isBot)
+void Game::Setup()
 {
     srand(seed > 0 ? seed : time(0));
 
