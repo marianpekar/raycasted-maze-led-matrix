@@ -23,7 +23,6 @@ int main(int argc, char* argv[]) {
     game->Setup();
 	
     while (game->m_isGameRunning) {
-        game->ProcessInput();
         game->Update();
         renderer->Render(game);
         game->Delay(FRAME_TIME_LENGTH);
