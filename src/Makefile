@@ -1,4 +1,4 @@
-CFLAGS=-Wall -O3 -g -Wextra -Wno-unused-parameter -I/usr/include/SDL2 -I/usr/include/SDL2 -lSDL2 -lSDL2_image -Wno-narrowing
+CFLAGS=-std=c++20 -Wall -O3 -g -Wextra -Wno-unused-parameter -I/usr/include/SDL2 -I/usr/include/SDL2 -lSDL2 -lSDL2_image -Wno-narrowing
 CXXFLAGS=$(CFLAGS)
 OBJECTS=main.o game.o maze.o perlin_noise.o raycaster.o window.o renderer.o surfaces.o path_finder.o
 BINARIES=main
