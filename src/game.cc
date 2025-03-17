@@ -70,8 +70,10 @@ void Game::MovePlayer(float deltaTime)
     }
 
     std::shared_ptr<Node> nextNode = currentNode->parent;
-    if (nextNode == nullptr)
+    if (nextNode == nullptr) {
+        currentNode = nullptr;
         return;
+    }
     
     float targetX = nextNode->x * TILE_SIZE + TILE_SIZE * 0.5f;
     float targetY = nextNode->y * TILE_SIZE + TILE_SIZE * 0.5f;
